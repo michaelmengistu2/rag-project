@@ -62,6 +62,7 @@ Before running the agent, you need to set up authentication with Google Cloud:
 2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
+   pip install deprecated
    ```
 
 ## Using the Agent
