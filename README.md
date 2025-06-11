@@ -20,6 +20,18 @@ The Vertex AI RAG Agent allows you to:
 - Appropriate access to create and manage Vertex AI resources
 - Python 3.9+ environment
 
+The ADK agent in this project uses a Gemini model. You'll need a Gemini API key.
+
+1.  Create or use an existing [Google AI Studio](https://aistudio.google.com/) account.
+2.  Get your Gemini API key from the [API Keys section](https://aistudio.google.com/app/apikeys).
+3.  Set the API key as an environment variable. Create a `.env` file
+
+    ```env
+    # .env
+    GOOGLE_API_KEY=your_gemini_api_key_here
+    ```
+    
+
 ## Setting Up Google Cloud Authentication
 
 Before running the agent, you need to set up authentication with Google Cloud:
