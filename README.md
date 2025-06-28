@@ -76,6 +76,10 @@ Before running the agent, you need to set up authentication with Google Cloud:
    pip install -r requirements.txt
    pip install deprecated
    ```
+3. **Run ADK web**:
+   ```bash
+   adk web
+   ```
 
 ## Using the Agent
 
